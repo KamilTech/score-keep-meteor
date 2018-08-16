@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,500'); // font style
+
+// Variables
+$green: #e4ede0;
+$green-alt: darken($green, 15%);
+$blue: #dfe7ed;
+$blue-alt: darken($blue, 15%);
+$red: #eddfdf;
+$red-alt: darken($red, 15%);
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +20,7 @@ html {
 body {
   background: #f2f2f2;
   color: #555555;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 1.6rem;
 }
 
@@ -20,7 +30,7 @@ input, button, select {
 
 h1 {
   font-weight: 300;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
 }
 
 @import './components/title-bar';
